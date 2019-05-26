@@ -1,0 +1,19 @@
+{
+  "name": "js-qm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist --source-maps"
+  },
+  "keywords": [],
+  "author": "Sazzadur Rahman <sazzad.rahman.bd@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5"
+  },
+  "dependencies": {
+    "graphql-tag": "^2.10.1"
+  }
+}
